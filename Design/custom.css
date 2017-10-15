@@ -88,3 +88,8 @@ padding: 0px;
 .panel:hover{
     background: rgba(0, 0, 0, 0.6)
 }
+#category{
+    width: 30%;
+    height: 40px;
+    float: top;
+}
