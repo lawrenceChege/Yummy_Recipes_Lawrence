@@ -1,0 +1,29 @@
+
+	.jumbotron{
+		background-color: #2E2D88;
+		color:white;
+	}
+/*adds borders for tabs*/
+	.tab-content{
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		padding: 10px;
+	}
+	.nav-tabs{
+		margin-bottom: 0;
+	}
+#websitesay{
+    font-size: 5.4em;
+}
+#websitewallpaper{
+    font-size: 10em;
+    vertical-align: middle;
+    font-family: cursive;
+    padding-left: 15px;
+    color: chocolate;
+}
+#desert{
+    height: 100%;
+    width: 100%;
+}
