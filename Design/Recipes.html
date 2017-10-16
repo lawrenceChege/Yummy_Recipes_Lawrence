@@ -11,11 +11,13 @@
 <link rel="stylesheet"  href="custom.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>  
+<script src="ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
-        <div class="col-sm-4" id="category">Categories
+        <div class="col-sm-3" id="category">Categories
                 <div class="form-group">
                     <input type="text" name="" class="form-control" placeholder="Create New category...">
                 </div><!--form-group -->
@@ -27,7 +29,7 @@
    <div class="container" style="margin-top:100px ">
        <div class="row">
         
-        <div class="col-sm-4"><h1>Breakfast</h1>
+        <div class="col-sm-3"><h1>Breakfast</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed temporibus culpa 
                 perspiciatis labore repellat vel laborum vero id quia quam, autem consequuntur 
                 et obcaecati aspernatur iste fugit possimus dignissimos magnam.</p>
@@ -37,7 +39,7 @@
                     </div><!--form-group -->
                 </div>
         </div>
-        <div class="col-sm-4"><h1>Full dish</h1>
+        <div class="col-sm-3"><h1>Full dish</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed temporibus culpa 
                     perspiciatis labore repellat vel laborum vero id quia quam, autem consequuntur 
                     et obcaecati aspernatur iste fugit possimus dignissimos magnam.</p>
@@ -47,28 +49,40 @@
                         </div><!--form-group -->
                     </div>
         </div>
-        <div class="col-sm-4"><h1>Snacks</h1>
+        <div class="col-sm-3"><h1>Snacks</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed temporibus culpa 
                         perspiciatis labore repellat vel laborum vero id quia quam, autem consequuntur 
                         et obcaecati aspernatur iste fugit possimus dignissimos magnam.</p>
-                        <div class="form-group">
-                                <input type="submit" name="" class="btn btn-success btn-lg btn-block" value="Add recipe">
-                
-                            </div><!--form-group -->
-                        </div>
+                        
         </div>
-        <div class="col-sm-4"><h1>Desert</h1>
+        <div class="col-sm-3"><h1>Desert</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed temporibus culpa 
                         perspiciatis labore repellat vel laborum vero id quia quam, autem consequuntur 
                         et obcaecati aspernatur iste fugit possimus dignissimos magnam.</p>
-                        <div class="form-group">
-                                <input type="submit" name="" class="btn btn-success btn-lg btn-block" value="Add recipe">
-                
-                            </div><!--form-group -->
-                        </div>
         </div>
        </div><!-- row-->
    </div><!--container -->
+   <div class="container">
+        <h2>Collapsible List Group</h2>
+        <p>Click on the collapsible panel to open and close it.</p>
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse1">Collapsible list group</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+              <ul class="list-group">
+                <li class="list-group-item">One</li>
+                <li class="list-group-item">Two</li>
+                <li class="list-group-item">Three</li>
+              </ul>
+              <div class="panel-footer">Footer</div>
+            </div>
+          </div>
+        </div>
+      </div>
   
     </body>
 </html>
