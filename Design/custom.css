@@ -14,7 +14,7 @@
     text-align: center;
 }
 body{
-    background-image: url(12.jpg);
+    background-image: url(3.jpg);
     background-size: cover;
     color: white;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body{
 }
 
 .panel{
-background: rgba(0,0, 0, 0.4);
+background: rgba(0, 0, 0, 0.4);
 color: white;
 border: 0px;
 text-align: center;
@@ -35,8 +35,12 @@ padding-top: 70px;
 position: relative;
 transition: 1s;
 }
+#recipe_cat{
+    background: rgba(233, 147, 18, 0.4)
+}
 .form-contols{
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(245, 239, 239, 0.8);
+    width: 30%;
 }
 span{
 width: 40px;
@@ -86,10 +90,33 @@ padding: 0px;
     color: white;
 }
 .panel:hover{
-    background: rgba(0, 0, 0, 0.6)
+    background: rgba(0, 0, 0, 0.6);
 }
 #category{
     width: 30%;
     height: 40px;
-    float: top;
+    float: left;
+    background: rgba(240, 207, 116, 0.5);
+}
+#recipes{
+background: rgba(94, 138, 180, 0.8);
+}
+.affix {
+    top:0;
+    width: 75%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix {
+   position: relative;
+   top: 50px;
+}
+#recipe_form{
+    width: 30%;
+}
+#add_recipe{
+    background: rgba(94, 138, 180, 0.8);
 }
